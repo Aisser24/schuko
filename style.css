@@ -184,6 +184,7 @@ h3 {
     margin: 0 5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: white;
     padding: 4rem;
     border-radius: 25px;
@@ -208,4 +209,37 @@ h3 {
 .erklaerung img {
     border-radius: 20px;
     border: 4px dotted var(--primary-color);
+}
+
+@media all and (max-width: 1200px) {
+    .erklaerung img {
+        rotate: -90deg;
+        height: 100%;
+    }
+
+    .erklaerung {
+        gap: 4rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .erklaerung img {
+        display: none;
+    }
+
+    .erklaerung {
+        justify-content: center;
+        gap: 0;
+    }
+
+    .left {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .erklaerung {
+        padding: 2rem;
+    }
 }
