@@ -223,7 +223,6 @@ h3 {
 @media all and (max-width: 1200px) {
     .erklaerung img {
         rotate: -90deg;
-        height: 100%;
     }
 
     .erklaerung {
