@@ -35,6 +35,15 @@ a:hover {
     color: var(--border-color);
 }
 
+.erklaerung h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.erklaerung ul {
+    margin-left: 2.5rem;
+}
+
 .slim {
     color: var(--text-color);
     font-size: 1.2rem;
