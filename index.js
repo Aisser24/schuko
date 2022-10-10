@@ -5,7 +5,6 @@ const ccEl = document.querySelector(".typCC-comp")
 const dEl = document.querySelector(".typD-comp")
 const eEl = document.querySelector(".typE-comp")
 const fEl = document.querySelector(".typF-comp")
-const efEl = document.querySelector(".typEF-comp")
 const gEl = document.querySelector(".typG-comp")
 const hEl = document.querySelector(".typH-comp")
 const iEl = document.querySelector(".typI-comp")
@@ -20,7 +19,6 @@ const lcc = document.querySelector(".lcc")
 const ld = document.querySelector(".ld")
 const le = document.querySelector(".le")
 const lf = document.querySelector(".lf")
-const lef = document.querySelector(".lef")
 const lg = document.querySelector(".lg")
 const lh = document.querySelector(".lh")
 const li = document.querySelector(".li")
@@ -60,10 +58,6 @@ eEl.addEventListener("click", () => {
 
 fEl.addEventListener("click", () => {
     open(lf)
-})
-
-efEl.addEventListener("click", () => {
-    open(lef)
 })
 
 gEl.addEventListener("click", () => {

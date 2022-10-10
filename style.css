@@ -22,6 +22,12 @@ a {
     transition: 25ms;
 }
 
+main h3 {
+    margin: 1.5rem 5%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 a:hover {
     filter: drop-shadow(0px 0px 7px rgba(255, 255, 255, 0.3));
 }
@@ -96,6 +102,7 @@ li {
     align-self: flex-start;
     min-height: 14rem;
     background-color: white;
+    cursor: pointer;
 }
 
 .background-vector {
@@ -223,6 +230,7 @@ h3 {
 @media all and (max-width: 1200px) {
     .erklaerung img {
         rotate: -90deg;
+        height: 100%;
     }
 
     .erklaerung {
